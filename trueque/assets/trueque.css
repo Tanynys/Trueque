@@ -1,0 +1,529 @@
+@font-face {
+    font-family: "Annexxus";
+    src: url("../assets/fonts/Annexxus_Demo.ttf");
+}
+.dice-tooltip{
+    display:block !important;
+}
+.ravencorvus {
+	 width: 15%;
+}
+.ravenniebla {
+	 width: 15%;
+}
+.ravencorvus img{
+	border: 0px;
+}
+.ravenniebla img{
+	border: 0px;
+}
+.dice-tooltip .dice-rolls .roll.success {
+	filter: none;
+}
+.window-app .window-content {
+	background: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+.panelchecks {
+	grid-template-columns: auto auto;
+	gap:0px;
+}
+.personalidadlabel {
+	font-family:'Annexxus';
+	font-size: 17px;
+}
+.panelpers1 {
+	grid-template-columns: 28% auto;
+	font-family:'Annexxus';
+	font-size: 23px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0px;
+}
+.panelpers2 {
+	grid-template-columns: 28% auto;
+	font-family:'Annexxus';
+	font-size: 23px;
+	background-color: #cbb9a282;
+	background-blend-mode: multiply;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0px;
+}
+.globalpers {
+	gap:0px;
+}
+.panelglob {
+	gap:0px;
+	grid-template-columns: 50% 50%;
+}
+.numpers {
+	background: url(../images/casillas_personalidad3.png);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	width:65px;
+	height:65px;
+	padding:15px;
+}
+.numpers input{
+	border: 0px;
+	text-align:center;
+	background-color:#FF000000;
+	width:30px;
+}
+.panelpers {
+	gap:0px;
+	margin:10px 0px 0px 0px;
+	padding:-10px;
+	border: 0px solid #681309;
+	border-radius:7px;
+}
+.titulorojo {
+	width:auto;
+	font-family:'Annexxus';
+	font-size: 20px;
+	color:white;
+	border-width: 10px;
+	background-color:#333333;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../images/MarcoRojo.webp);
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+.titulorojo p{
+width:auto;
+margin: 0px;
+}
+.titulonormal {
+	font-family:'Annexxus';
+	font-size: 20px;
+	color: #671308;
+}
+.titulonormal h1{
+	margin-top:10px;
+	font-size: 20px;
+	border:0px;
+}
+.titulonormal h2{
+	font-size: 15px;
+	border:0px;
+	color: black;
+}
+.titulonormal h3{
+	font-size: 13px;
+	border:0px;
+	margin-top:-5px;
+}
+.titulonormal p{
+	font-family:'Annexxus';
+	font-size: 15px;
+	color: black;
+	text-align: justify;
+}
+.titulonormal strong{
+	font-family:'Annexxus';
+	font-size: 15px;
+	color: #671308;
+	text-align: justify;
+}
+.panelgrande {
+	gap:0px;
+	margin:10px 0px 0px 0px;
+	padding:-10px;
+	border-width: 20px;
+	background-clip: padding-box;
+  border-style: solid;
+  border-image: url(../images/MarcoGrande.webp);
+  border-image-slice: 100;
+  border-image-repeat: stretch;
+}
+.textblack {
+	font-family:'Annexxus';
+	font-size: 13px;
+}
+.textblack strong{
+	font-family:'Annexxus';
+	font-size: 13px;
+	color: #671308;
+}
+.textblack label{
+	font-family:'Annexxus';
+	font-size: 13px;
+	font-weight:800;
+	color: #671308;
+}
+.textblackblack {
+	font-family:'Annexxus';
+	font-size: 13px;
+}
+.textblackblack strong{
+	font-family:'Annexxus';
+	font-size: 13px;
+}
+.textblackblack label{
+	font-family:'Annexxus';
+	font-size: 13px;
+	font-weight:800;
+}
+.textblackexp {
+	font-family:'Annexxus';
+	font-size: 13px;
+	background-color:#cbb9a282;
+	border-radius:5px;
+	padding:4px 10px 4px 10px;
+}
+.textblackexp strong{
+	font-family:'Annexxus';
+	font-size: 13px;
+	color: #671308;
+}
+.textorellenar input{
+	font-family:'Annexxus';
+	font-size: 13px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.titulodesc {
+	font-family:'Annexxus';
+	font-size: 15px;
+}
+.paneldesc {
+	grid-template-columns: 35% 60%;
+}
+.textdescrip {
+	width:100%;
+}
+.textdescrip input{
+	font-family:'Annexxus';
+	font-size: 13px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+.textdescrip select{
+	font-family:'Annexxus';
+	font-size: 13px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+.checkboxacciones input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../images/Chechbox_empty.webp);
+	background-size:15px;
+	background-repeat: no-repeat;
+	flex: 0 0 15px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.checkboxacciones input[type="checkbox"]:checked {
+    background: url(../images/Chechbox_filled.webp);
+	background-size:15px;
+	-webkit-filter: none !important;
+}
+.checkboxacciones {
+	margin:0px;
+	align-items: start;
+	margin-top:7px;
+}
+.tabpanel nav{
+	font-family:'Annexxus';
+	font-size: 20px;
+	color:#93544b;
+}
+.tabpanel .item.active{
+	text-decoration: underline;
+	color:#671308;
+}
+.custom-system-actor nav.sheet-tabs{
+	border-left:30px;
+	border-right:30px;
+	border-bottom: 30px;
+	margin:15px;
+	padding-bottom:0px;
+}
+.charname input{
+	font-family:'Annexxus';
+	font-size: 38px;
+	color:#671308;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+}
+.pancheckscamnieb {
+	grid-template-columns: auto auto auto auto auto auto;
+	gap:0px;
+	margin:0px;
+}
+.panelniebdesp {
+	gap:0px;
+	margin:0px 0px 10px 0px;
+}	
+.checkboxniebla input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../images/Chechbox_empty.webp);
+	background-size:15px;
+	background-repeat: no-repeat;
+	flex: 0 0 15px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.checkboxniebla input[type="checkbox"]:checked {
+    background: url(../images/Chechbox_filled.webp);
+	background-size:15px;
+	-webkit-filter: none !important;
+}
+.checkboxniebla {
+	margin:0px 0px 0px 5px;
+}
+.panelmagrasg {
+	grid-template-columns: auto auto auto auto auto auto;
+	gap:0px;
+}
+.textblacksmall {
+	font-family:'Annexxus';
+	font-size: 12px;
+}
+.textblacksmall strong{
+	font-family:'Annexxus';
+	font-size: 12px;
+	color: #671308;
+}
+.textblacksmall select{
+	width: 90px;
+	height:100%;
+ 	overflow: hidden;
+ 	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	-webkit-appearance: none;
+	text-align:center;
+}
+.titulonormalnieb strong{
+	font-family:'Annexxus';
+	font-size: 12px;
+	color: #671308;
+	text-align: justify;
+}
+.textdescripsec {
+	width:100%;
+	margin:0px;
+}
+.textdescripsec input{
+	font-family:'Annexxus';
+	font-size: 13px;
+	background-color: #FF000000;
+	border-bottom:1.5px dotted;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	text-align:left;
+}
+.traumapan {
+	grid-template-columns: auto auto;
+	gap:0px;
+}
+.textblacktrauma {
+	font-family:'Annexxus';
+	font-size: 13px;
+	margin:0px;
+}
+.textblacktrauma strong{
+	font-family:'Annexxus';
+	font-size: 13px;
+	color: #671308;
+}
+.aprencheckpanel {
+	gap:0px;
+}
+.avancestitle {
+	font-family:'Annexxus';
+	font-size: 20px;
+	color: #671308;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	border-left:2px solid;
+}
+.avancespanel {
+	grid-template-columns: auto auto;
+	gap:0px;
+	background-color:#cbb9a282;
+	border-radius:5px;
+	padding:5px 8px 5px 0px;
+}
+.avancespantab {
+	grid-template-columns: auto auto;
+	row-gap:5px;
+}
+.ayudacampan {
+	grid-template-columns: 30% 70%;
+	gap:5px;
+	margin: 0px;
+}
+.nombrepersamad {
+	grid-template-columns: 25% 70%;
+	gap:5px;
+	margin: 0px;
+}
+.chat-message .message-content h1{
+font-family:'Annexxus';
+	font-size:30px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'Annexxus';
+	font-size:25px;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+	font-family:'Annexxus';
+	font-size:15px;
+	text-align:center;
+	border:0px;
+}
+.dice-roll .dice-formula {
+	display:none;
+}
+.dice-tooltip .part-header {
+	display:none;
+}
+.dice-tooltip .dice-rolls {
+	display: flex;
+ 	justify-content: center;
+}
+.dice-roll .dice-total {
+	font-family:'Annexxus';
+	font-size:30px;
+	font-weight:700;
+	background-color: #00000000;
+	border:0px;
+	box-shadow: none;
+}
+hr {
+	display:none;
+}
+.chat-message .message-content {
+	background: url(../images/Fondo.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	background-clip: border-box;
+
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Annexxus';
+	text-align:center;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #671308;
+	white-space: normal;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Annexxus';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.custom-system-user-inputs  label{
+	font-family: 'Annexxus';
+	text-align:center;
+	font-size:15px;
+}
+.custom-system-user-inputs {
+	text-align:center;
+}
+.custom-system-user-inputs thead {
+	display:none;
+}
+.custom-system-user-inputs {
+	background-color: #ff000000;
+	border:0px;
+	color: #671308;
+}
+.custom-system-user-input-button {
+	font-family:'Annexxus';
+	font-size:15px;
+	width:auto;
+    border: 2px ridge #671308;;
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
+.custom-system-user-input-block {
+	text-align:center;
+}
+.custom-system-user-inputs tr:nth-child(even) {
+	background-color: #cbb9a282;
+	background-blend-mode: multiply;
+}
+.custom-system-user-input-block input[type="checkbox"]{
+	-webkit-appearance: initial;
+    appearance: initial;
+	margin:0px;
+    background: url(../images/Chechbox_empty.webp);
+	background-size:20px;
+	background-repeat: no-repeat;
+	flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.custom-system-user-input-block input[type="checkbox"]:checked{
+	background: url(../images/Chechbox_filled.webp);
+	background-size:20px;
+	-webkit-filter: none !important;
+}
+.custom-system-user-input-block input[type="number"] {
+	width:30px;
+	font-family:'Annexxus';
+	font-size:15px;
+}
+.sheet .custom-system-actor header.sheet-header .profile-img-container{
+	border-width: 15px;
+ 	border-style: solid;
+ 	border-image: url(../images/MarcoFoto.webp);
+ 	border-image-slice: 60;
+ 	border-image-repeat: repeat;
+}
+.chat-portrait-message-portrait-generic {
+	border-width: 15px;
+ 	border-style: solid;
+ 	border-image: url(../images/MarcoFoto.webp);
+ 	border-image-slice: 60;
+ 	border-image-repeat: repeat;
+}
+.panelmagadv {
+border-top: 2px solid #671308;
+}
+.form-group {
+	font-family:'Annexxus';
+	font-size: 15px;
+}

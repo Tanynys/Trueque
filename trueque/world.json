@@ -1,0 +1,15 @@
+{
+  "title": "Trueque",
+  "id": "trueque",
+  "system": "custom-system-builder",
+  "joinTheme": "minimal",
+  "coreVersion": "12.331",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "systemVersion": "4.4.2",
+  "lastPlayed": "Tue Mar 18 2025 18:04:05 GMT+0000 (Coordinated Universal Time)",
+  "playtime": 1323123,
+  "background": "worlds/trueque/recursos/Portada-TruequeM.png"
+}
