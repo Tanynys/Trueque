@@ -49,3 +49,11 @@ Se hace click en los botones de Tirada de Riesgo o Tirada de Horror según solic
 En el chat se genera directamnete el resultado y explicación del mismo (Ver imagen)
 
 ![trueque6](https://github.com/user-attachments/assets/542b59a2-0c81-4400-8ad9-d5bf32dedb89)
+
+La creación del formaulario crea un mensaje en el chat que no tiene más consecuencias.
+
+DADO DEL CAOS
+
+He incluído cuatro baldosas en los mantales de las consecuencias que se pueden hacer visibles o invisibles para marcar el Dado del Caos (Ver imagen)
+
+
