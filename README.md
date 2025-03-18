@@ -54,6 +54,7 @@ La creación del formaulario crea un mensaje en el chat que no tiene más consec
 
 DADO DEL CAOS
 
-He incluído cuatro baldosas en los mantales de las consecuencias que se pueden hacer visibles o invisibles para marcar el Dado del Caos (Ver imagen)
+He incluído cuatro baldosas en los manteles de las consecuencias que se pueden hacer visibles o invisibles para marcar el Dado del Caos (Ver imagen)
 
+![trueque7](https://github.com/user-attachments/assets/fe96fe42-83be-4088-9476-708a824e411d)
 
