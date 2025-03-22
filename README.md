@@ -17,8 +17,30 @@ A Montver y a ParvusDomus por su ayuda para solucionar un problema con las tirad
 
 INSTALACIÓN
 
+Opción 1
+
 Descargar archivo ZIP del repositorio (ver imagen), descomprimir, cambiar nombre de la carpeta a "trueque" y subir a carpeta "worlds" en Foundry (...foundrydata/Data/worlds/)
 ![trueque1](https://github.com/user-attachments/assets/62ff58c9-eb29-41c3-9062-06c053c25442)
+
+Opción 2
+
+Buscar el módulo en el directorio de módulos de Foundry "Trueque (CSB) (ES)" y hacer click en install (ver imagen)
+
+![install](https://github.com/user-attachments/assets/19f639a4-2d56-47e0-955a-627669082e21)
+
+Crear un nuevo mundo en blanco con el sistema custom system builder. (ver imagen)
+
+![Install2](https://github.com/user-attachments/assets/8ff337ff-5301-4d16-8b84-88b7facf3f7d)
+
+Al activar el módulo en el mundo aparecerá un compendio del que puedes importar toda la información (ver imagen)
+
+![instalación2](https://github.com/user-attachments/assets/2e9e992f-c296-48c0-8b7d-7dab10cc467e)
+
+Por último no tienes más que ir a Configurar los ajustes "Configure Settings" y dentro de la configuración del Custom System Builder indicar la dirección del archico CSS "modules/trueque/assets/trueque.css" (Ver imagen)
+
+![css](https://github.com/user-attachments/assets/41dccd66-c9eb-4029-8655-af53ddca12b1)
+
+
 
 CREAR PERSONAJE
 
