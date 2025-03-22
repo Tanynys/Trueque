@@ -1,5 +1,7 @@
 # Trueque
-Mundo para Foundry VTT con las hojas de personaje para las distintas variantes del juego "Trueque" en español para el sistema Custom System Builder
+Modulo No Oficial para Foundry VTT con las hojas de personaje para las distintas variantes del juego "Trueque" de Pepe Pedraz en español para el sistema Custom System Builder.
+
+Permite hacer las hojas de personaje de Trueque, Mitos, Folk Horror, Vacío y Revoluciones, hacer las tiradas de dados y ver las consecuencias en el chat.
 
 AVISO: No soy programador ni entiendo de CSS. Este sistema se ha creado, y se ofrece tal cual está, por un aficionado para otros aficionados con el único de interés de facilitar el juego con este sistema. Siéntete libre de cambiar y modificar lo que creas oportuno. Si lo haces y mejora lo que hay te agradezco me avises para modificarlo. Toda colaboración es bienvenida.
 
@@ -10,6 +12,8 @@ A Pedro Bariengo cuyo CSS para su sistema Raven he fusilado sin piedad junto con
 A Pepe Pedraz por crear el juego Trueque y por darme permiso para compartirlo con la comunidad.
 
 A Albesias, Gurre, Irene, Joserra y Skogarmadr por testearlo.
+
+A Montver y a ParvusDomus por su ayuda para solucionar un problema con las tiradas.
 
 INSTALACIÓN
 
@@ -49,8 +53,6 @@ Se hace click en los botones de Tirada de Riesgo o Tirada de Horror según solic
 En el chat se genera directamnete el resultado y explicación del mismo (Ver imagen)
 
 ![trueque6](https://github.com/user-attachments/assets/542b59a2-0c81-4400-8ad9-d5bf32dedb89)
-
-La creación del formaulario crea un mensaje en el chat que no tiene más consecuencias.
 
 DADO DEL CAOS
 
